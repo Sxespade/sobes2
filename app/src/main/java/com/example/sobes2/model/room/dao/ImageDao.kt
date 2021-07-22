@@ -6,7 +6,7 @@ import androidx.room.Insert
 import androidx.room.OnConflictStrategy
 import androidx.room.Query
 import androidx.room.Update
-import ru.geekbrains.poplib.mvp.model.entity.room.RoomCachedImage
+import com.example.sobes2.model.room.room.RoomCachedImage
 
 @Dao
 interface ImageDao {

@@ -1,7 +1,7 @@
 package com.example.sobes2.model.room
 
 import androidx.room.RoomDatabase
-import ru.geekbrains.poplib.mvp.model.entity.room.RoomCachedImage
+import com.example.sobes2.model.room.room.RoomCachedImage
 import ru.geekbrains.poplib.mvp.model.entity.room.RoomGithubRepository
 import ru.geekbrains.poplib.mvp.model.entity.room.RoomUser
 import ru.geekbrains.poplib.mvp.model.entity.room.dao.ImageDao

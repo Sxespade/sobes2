@@ -72,7 +72,7 @@ class ListOfUsersPresenter : MvpPresenter<MainView>() {
                         val list = database.userDao.getAll()
                         val listOfDatum = mutableListOf<Datum>()
                         for (s in list) {
-                            val datum = Datum(s.id,s.email, s.firstName,s.lastName, s.img)
+                            val datum = Datum(s.id,s.lastName, s.firstName,s.email, s.img)
                             listOfDatum.add(datum)
                         }
                         it.onNext(listOfDatum)
