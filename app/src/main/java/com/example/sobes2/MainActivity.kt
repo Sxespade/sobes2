@@ -70,7 +70,7 @@ class MainActivity : MvpAppCompatActivity(), MainViewMain {
 
     override fun onStart() {
         super.onStart()
-        router.replaceScreen(Screens.ListOfUsers())
+//        router.replaceScreen(Screens.ListOfUsers())
     }
 
     override fun onResumeFragments() {

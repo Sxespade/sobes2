@@ -19,8 +19,6 @@ class App : Application() {
     lateinit var appComponent: AppComponent
         private set
 
-//    var userSubcomponent: RepositorySubcomponent? = null
-//        private set
 
     override fun onCreate() {
         super.onCreate()

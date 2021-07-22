@@ -4,15 +4,14 @@ import android.os.Parcelable
 import com.google.gson.annotations.Expose
 
 import com.google.gson.annotations.SerializedName
-import dagger.Module
 import dagger.Provides
 import kotlinx.android.parcel.Parcelize
 
 @Parcelize
-data class Datum (
+data class Datum(
     @SerializedName("id")
     @Expose
-    var id: Int? = null,
+    var id: String = "null",
 
     @SerializedName("email")
     @Expose
